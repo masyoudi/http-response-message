@@ -1,17 +1,17 @@
-# http-message-json
+# http-response-message
 
 List of HTTP status message based on [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 ## Installation
 
 ```
-npm install http-message-json --save
+npm install http-response-message --save
 ```
 
 ## Usage
 
 ```JS
-const { messages, message, codes, code } = require('http-message-json');
+const { messages, message, codes, code } = require('http-response-message');
 
 /**
  * Get all collection HTTP status message
@@ -93,7 +93,7 @@ console.log(code)
 ```JS
 const express = require('express');
 const fs = require('fs');
-const { codes, messages } = require('http-message-json');
+const { codes, messages } = require('http-response-message');
 const app = express();
 const port = 3000;
 
